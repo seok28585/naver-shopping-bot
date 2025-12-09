@@ -109,7 +109,7 @@ def find_best_match_optimized(client_id, client_secret, product_name, target_img
 
 st.set_page_config(page_title="High-Speed 최저가 검색기", layout="wide")
 
-st.title("⚡ 네이버 최저가 검색기")
+st.title("⚡(주)가울 네이버 최저가 검색기")
 st.markdown("병렬 처리와 자동 로그인 기능이 적용된 전문가용 버전입니다.")
 
 # --- 사이드바 설정 (Secrets 로직 적용) ---
@@ -208,4 +208,5 @@ if uploaded_file is not None:
 
     except Exception as e:
         st.error(f"❌ 오류 발생: {str(e)}")
+
 
